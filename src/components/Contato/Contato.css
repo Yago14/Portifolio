@@ -1,0 +1,46 @@
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: var(--cor-creme);
+
+}
+
+.telefone{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 300px;
+    padding: 2rem;
+    text-align: center;
+}
+.telefone h3{
+    color: var(--cor-areia);
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contato button {
+    width:250px;
+    height: 36px;
+    border-radius: 10px;
+    color: var(--cor-areia);
+    background-color: var(--cor-dark);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.contato button:hover{
+    scale: 1.07;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+

@@ -1,0 +1,66 @@
+.form{
+    width: 50vw;
+    height: 600px;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form h3{
+    color: var(--cor-areia);
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.form textarea{
+    height: 100px;
+    padding:2rem 3rem;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    font-size: 19px;
+    border: none;
+    color: var(--cor-creme);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color: var(--cor-areia);
+}
+.form input{
+    height: 2rem;
+    padding: 0 3rem;
+   border-radius: 0.5rem;
+   font-weight: 300;
+   font-size: 16px;
+   border: none;
+   color: var(--cor-creme);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   background-color: var(--cor-areia);
+}
+.form button {
+    width:250px;
+    height: 36px;
+    border-radius: 10px;
+    color: var(--cor-areia);
+    background-color: var(--cor-dark);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.form button:hover{
+    scale: 1.07;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+@media(max-width:630px){
+    .form{
+        margin: 0 3rem;
+        padding: 0;
+        width: 70vw ;
+        text-align: center;
+    }
+    .form button{
+        width: 70vw ;
+
+    }
+}

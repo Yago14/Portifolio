@@ -1,0 +1,46 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    text-align:center;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-around;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   
+}
+.card h3{
+    color: var(--cor-areia);
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.card p {
+    color: var(--cor-areia);
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.card button {
+    width:250px;
+    height: 36px;
+    border-radius: 10px;
+    color: var(--cor-areia);
+    background-color: var(--cor-dark);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.card button:hover{
+    scale: 1.07;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+
