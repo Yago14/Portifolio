@@ -1,6 +1,9 @@
 import { Form } from "./formulario/Form"
 import "./Contato.css"
 import Whatsapp from "./icon/whatsapp.png"
+
+
+
 import Curriculo from "./Curriculo/curriculo.pdf"
 
 export const Contato = () => {
@@ -12,7 +15,10 @@ export const Contato = () => {
                     <h3>Telefone de contato</h3>
                    <img height="30px" src={Whatsapp} alt="" /> <p>(83) 982171484</p>
 
-                   <a target="_blank" href={Curriculo}><button>Vizualizar Currículo</button></a>
+                  <a target="_blank" href={Curriculo}><button>Vizualizar Currículo</button></a>
+
+
+
                 </div>
                 <Form />
             </div>
