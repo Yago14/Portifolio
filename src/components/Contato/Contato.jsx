@@ -1,7 +1,7 @@
 import { Form } from "./formulario/Form"
 import "./Contato.css"
 import Whatsapp from "./icon/whatsapp.png"
-import Curriculo from "./Curriculo/curricu.pdf"
+import Curriculo from "./Curriculo/curriculo.pdf"
 
 export const Contato = () => {
     return (
